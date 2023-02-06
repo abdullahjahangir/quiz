@@ -1,0 +1,37 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <style>
+        .resultCard{
+            border: 1px solid black;text-align: center;margin: 20px 500px;padding:20px 5px;border-radius: 5px;
+        }
+        #score{
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="resultCard">
+        <h4 id="score"></h4>
+        <a id="Retake Quiz" href="Quiz.html" class="btn btn-primary">Retake Quiz</a>
+        <a href="My Quiz Intro.html" class="btn btn-primary">Home</a>
+    </div>
+    <table class="table table-striped">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">Question #</th>
+            <th scope="col">Answer</th>
+            <th scope="col">Correct Answer</th>
+          </tr>
+        </thead>
+        <tbody id="Result">
+        </tbody>
+      </table>
+</body>
+<script src="QuizResult.js"></script>
+</html>

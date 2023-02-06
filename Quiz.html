@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Quiz.css">
+</head>
+<body>
+    <div class="main-container">
+        <div  class="side-panel">
+            <div style="margin-bottom: 10px;">
+                <h4 style="margin-bottom: 2px;" id="QuizName"></h4>
+                <h4 style="margin-top: 2px;" id="TotalQuestion"></h4>
+            </div>
+            <div id="question-symbols-area">
+            </div>
+            <div>
+                <form action="QuizResult.html">
+                    <button class="btn" onclick="SubmitQuiz()">Submit Quiz</button>    
+                </form>
+            </div>
+            
+        </div>
+        <div class="test-panel">
+            <div class="question-area">
+            </div>
+            <div class="option-area">
+            </div>
+            <div class="btn-area">
+                <div>
+                    <button class="btn" id="previous">Previous</button>
+                    <button class="btn" id="next">Next</button>
+                </div>
+                <div>
+                    <button class="btn" id="submit">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="Quiz.js"></script>
+</body>
+</html>
